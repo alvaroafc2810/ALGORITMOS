@@ -1,6 +1,6 @@
 package fotografos;
 
-public class fotografos {
+public class Fotografos {
 	
 	private String nombres;
 	private int dni;
@@ -9,7 +9,7 @@ public class fotografos {
 	private String marcaCamara;
 	
 
-	public fotografos(String nombres, int dni, double sueldo, String genero,String marcaCamara) {
+	public Fotografos(String nombres, int dni, double sueldo, String genero,String marcaCamara) {
 		// TODO Auto-generated constructor stub
 	
 		this.nombres = nombres;

@@ -1,16 +1,16 @@
 package gui;
 
-import fotografos.fotografos;
+import fotografos.Fotografos;
 
 public class datos_fotografos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		fotografos colega1 = new fotografos("Silvana Salazar", 7654321, 1200, "Femenino","Nikon");
-		fotografos colega2 = new fotografos("Julio Paucarcaja", 9876543, 1400, "Masculino","Canon");
-		fotografos colega3 = new fotografos("Omar Romero", 8765432, 1600, "Masculino", "Canon");
-		fotografos colega4 = new fotografos("Saul Urribari", 3219876, 2000, "Masculino", "Canon");
+		Fotografos colega1 = new Fotografos("Silvana Salazar", 7654321, 1200, "Femenino","Nikon");
+		Fotografos colega2 = new Fotografos("Julio Paucarcaja", 9876543, 1400, "Masculino","Canon");
+		Fotografos colega3 = new Fotografos("Omar Romero", 8765432, 1600, "Masculino", "Canon");
+		Fotografos colega4 = new Fotografos("Saul Urribari", 3219876, 2000, "Masculino", "Canon");
 
 		String nombre1 = colega1.mostrarNombre();
 		String nombre2 = colega2.mostrarNombre();
